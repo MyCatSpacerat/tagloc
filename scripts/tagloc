@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+
+import tagloc
+import sys
+
+def main():
+    print(sys.argv)
+    if len(sys.argv) == 3:
+	    print(tagloc.resolve(sys.argv[1], sys.argv[2]))
+    else:
+        raise Exception("Invalid arguments!")
+
+if __name__ == "__main__":
+	main()
