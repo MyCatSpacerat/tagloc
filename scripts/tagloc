@@ -4,7 +4,6 @@ import tagloc
 import sys
 
 def main():
-    print(sys.argv)
     if len(sys.argv) == 3:
 	    print(tagloc.resolve(sys.argv[1], sys.argv[2]))
     else:
