@@ -9,5 +9,6 @@ setup(
         author="Willem Hunt",
         author_email="willemhhunt@gmail.com",
         packages=["tagloc"],
-        scripts=["scripts/tagloc"]
-        )
+        scripts=["scripts/tagloc"],
+        install_requires=['bs4','requests'],
+)
